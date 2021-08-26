@@ -7,7 +7,6 @@ Bricco Blends is barista oat milk with 100% compostable packaging.
 ">
 <meta name="keywords" content="oat milk, barista, eco friendly, compostable, latte, capuccino, foam, microfoam, local, austin">
 <meta name="author" content="Amalia Litsa
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
