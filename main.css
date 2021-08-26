@@ -19,8 +19,8 @@ h3 strong {font-size: 2rem; display: block;}
 #ecofriendly .landfill h3 {text-align: left;}
 
 #freshmade {border-top: .5ex solid; margin-top: 4rem; padding-top: 4rem;}
-#freshmade h2 {font-weight: 700; font-size: 1.5rem;}
-#freshmade h2 span {font-size: 2.5em; display: block;}
+#freshmade h2 {font-weight: 700; font-size: 1rem;}
+#freshmade h2 span {font-size: 2em; display: block;}
 #freshmade .col::after {content:"- - - "; font-weight: bold;}
 
 footer {background-color: #202530; padding: 1em; color: #fff; font-weight: 400; color: #F0ECE3;}
