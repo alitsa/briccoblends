@@ -116,7 +116,7 @@ Bricco Blends is barista oat milk with 100% compostable packaging.
 
 <li><h3>Generate new revenue</h3>
 <p>Neighborhood coffee shops can differentiate their business by using fresh, house made oat milk. Bottled oat milk can be sold along side a shop's specialty coffee blends.
-Developing Bricco Blends is the most meaningful thing I've ever done. On my own, I can only make enough oat milk powder to serve three coffee shop locations. Your support will help me expand my production capacity so I can serve tens, hundreds, even thousands of coffee shops.</p></li>
+Coffee shops can become destinations for conscientious consumers who want to buy organic, locally made oat milk.</p></li>
 </ol>
 
 <h3>How your donation will be used</h3>
