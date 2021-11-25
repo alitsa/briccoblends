@@ -4,84 +4,148 @@
 <title>Bricco Blends</title>
 <meta name="description" content="
 Bricco Blends is barista oat milk with 100% compostable packaging.
-">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="oat milk, barista, eco friendly, compostable, latte, capuccino, foam, microfoam, local, austin">
-<meta name="author" content="Amalia Litsa
-</head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="oat milk, barista, eco friendly, compostable, latte, capuccino, foam, microfoam, local, austin" />
+<meta name="author" content="Amalia Litsa />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
       rel="stylesheet">
-<link rel="stylesheet" href="main.css">
-<base target="_blank" />
-
+<link rel="stylesheet" href="main.css" />
+</head>
 <body>
-  <article>
-<section id="ecofriendly">
-<div class="row row-3">
-  <div class="col logo">
-    <img src="img/briccoblends.svg" alt="Bricco Blends" />
-    <h4>Coming Spring 2022</h4>
+<header class="banner">
+  <nav>
+  <ul>
+    <li class="logo"><a href="index.php">Home</a></li>
+    <li><a href="#product">Online</a></li>
+    <li><a href="#partners">Local</a></li>
+    <li><a class="hidden" href="#about">About</a></li>
+    <li><a href="#support">Kickstarter</a></li>
+  </ul>
+</nav>
+</header>
+<article id="product">
+  <h2>Order Online</h2>
+  <figure>
+    <img src="img/bricco-bag.jpg" alt="" />
+    <figcaption>
+      One bag of Bricco Blends makes 12 quarts (3 gallons) of delicious, barista grade oat milk.
+    </figcaption>
     <p>
-      <strong>Bricco Blends</strong> is barista-designed oat milk for coffee shops. It produces gorgeous latte foam, and solves cost, waste, and storage problems caused by conventional milk cartons.
+      <a href="https://bricco-blends.myshopify.com/cart/41536148406421:1?channel=buy_button" class="button">Buy for $52.50</a>
     </p>
-    <p>
-      <a href="https://mailchi.mp/0322dcb68559/bricco-blends">Join our mailing list</a> to follow our progress to market launch.
-    </p>
-  </div>
-  <div class="col storage">
-    <h3><strong>6x</strong> storage space</h3>
-    <img src="img/6xstorage.svg" alt="Save storage space" />
-  </div>
-  <div class="col landfill">
-    <h3><strong>Zero</strong> landfill waste</h3>
-    <img src="img/zerowaste.svg" alt="Zero landfill waste" />
-  </div>
-</div>
-</section>
-<section id="freshmade">
-
-  <h2>
-    Set your coffee shop apart with
-    <span>house made, fresh &amp; local</span>
-  </h2>
-
-  <div class="row row-3">
-    <div class="col blend">
-      <h3><strong>1</strong>Blend</h3>
-      <figure><img src="img/blend.svg" alt="1. Blend" /></figure>
-      <p><strong>Make 3 gallons in just 7 minutes:</strong> Making fresh, house made oat milk doesn't require hours of pureeing and straining anymore. Bricco Blend does all the work&mdash;baristas just add water!</p>
-    </div>
-    <div class="col bottle">
-      <h3><strong>2</strong>Bottle</h3>
-      <figure><img src="img/bottle.svg" alt="2. Bottle" /></figure>
-      <p><strong>Use our label or your own:</strong> The final product is <em>your</em> bricco blend. Fresh made oat milk can be a new revenue stream for your shop.</p>
-    </div>
-    <div class="col basta">
-      <h3><strong>3</strong>Basta!</h3>
-      <figure><img src="img/basta.svg" alt="3. Basta!" /></figure>
-      <p><strong>Make art:</strong> Bricco Blends combines the perfect ratio of finely milled organic oats, sunflower oil, and minerals for a gorgeous, stable latte foam.</p>
-    </div>
-  </div>
-</section>
+  </figure>
+  <h3>Wholesale</h3>
+  <p>
+    Want Bricco Blends for your coffee shop or restaurant? Awesome! Please email <a href="mailto:sales@briccoblends.com">sales@briccoblends.com</a>.
+  </p>
 </article>
+<article id="partners">
+  <h2>Get it locally</h2>
+<p>
+  Bricco Blends is available for purchase starting Friday, December 3rd!
+</p>
+<h3>Austin</h3>
+<ul>
+  <li>
+<address>
+<strong>Barrett's Coffee</strong><br />
+713 W St Johns Ave, Austin, TX 78752<br />
+<a href="https://www.barrettscoffee.com/" target="_blank">barrettscoffee.com</a>
+</address>
+  </li>
+</ul>
+
+<h3>Waco</h3>
+<ul>
+<li>
+<address>
+<strong>Be Kind Coffee West</strong><br />
+425 Lake Air Dr, Waco, TX 76710<br />
+<a href="https://www.bekindcoffeecrew.com/" target="_blank">bekindcoffeecrew.com</a>
+</address>
+  </li>
+  <li>
+<address>
+<strong>Be Kind Coffee Downtown</strong><br />
+720 Franklin Ave
+, Waco, TX 76701<br />
+<a href="https://www.bekindcoffeecrew.com/" target="_blank">bekindcoffeecrew.com</a>
+</address>
+  </li>
+</ul>
+
+</article>
+<article id="support">
+  <h2>Kickstart Bricco Blends</h2>
+
+  <ul class="horizontal">
+    <li>
+      <a href="https://bricco-blends.myshopify.com/cart/41536686719125:1?channel=buy_button"  class="button">$10</a>
+    </li>
+    <li>
+      <a href="https://bricco-blends.myshopify.com/cart/41536686751893:1?channel=buy_button"  class="button">$25</a>
+    </li>
+    <li>
+      <a href="https://bricco-blends.myshopify.com/cart/41536686784661:1?channel=buy_button" class="button">$50</a>
+    </li>
+    <li>
+      <a href="https://bricco-blends.myshopify.com/cart/41536686817429:1?channel=buy_button"  class="button">$100</a>
+    </li>
+    <li>
+      <a href="https://bricco-blends.myshopify.com/cart/41536686850197:1?channel=buy_button"  class="button">$500</a>
+    </li>
+    <li>
+      <a href="https://bricco-blends.myshopify.com/cart/41536686882965:1?channel=buy_button"  class="button">$1k</a>
+    </li>
+</ul>
+<h3>Why Donate?</h3>
+<p>Hello, Litsa here! I founded Bricco Blends in 2020 to help small coffee shop owners like myself. I spent a year developing a recipe that would taste delicious, foam gorgeously, and take the effort out of making house-made oat milk. I'm so excited about the impact Bricco Blends can have on the environment and local economy:</p>
+
+<ol>
+<li><h3>Reduce waste</h3>
+<p>The average coffee shop currently throws 6,240 Tetra Paks in the landfill every year! Bricco Blends uses compostable packaging</p></li>
+
+<li><h3>Use less storage space</h3>
+<p>One bag of Bricco Blends uses 1/6 the storage space as a 12-quart case of barista oat milk. This is so helpful for small shops and coffee trailers!</p>
+</li>
+
+<li><h3>Generate new revenue</h3>
+<p>Neighborhood coffee shops can differentiate their business by using fresh, house made oat milk. Bottled oat milk can be sold along side a shop's specialty coffee blends.
+Developing Bricco Blends is the most meaningful thing I've ever done. On my own, I can only make enough oat milk powder to serve three coffee shop locations. Your support will help me expand my production capacity so I can serve tens, hundreds, even thousands of coffee shops.</p></li>
+</ol>
+
+<h3>How your donation will be used</h3>
+
+<p>Developing Bricco Blends is the most meaningful thing I've ever done. On my own, I can only make enough oat milk powder to serve three coffee shop locations. Your support will help me expand my production capacity so I can serve tens, hundreds, even thousands of coffee shops.</p>
+<p>
+  I need about <strong>$18,000</strong> to hire a local factory to produce enough oat milk powder to serve 5 coffee shop locations for 6 months (or more for fewer months). With this investment, I can freely sell Bricco Blends without worring about supply.
+</p>
+
+<p>
+  Bricco Blends will have such a big environmental impact with every new coffee shop customer we bring on. Thank you so much for joining me in this! &hearts;
+</p>
+
+</article>
+
+
 <footer>
-      <address>
-        <strong>Montopolis Beverages</strong><br />
-        720 Bastrop Hwy #303<br />
-        Austin, TX 78741
-      </address>
-      <p>
-      (512) 766 - 8255<br />
-      info@briccoblends.com
-      </p>
-      <p>
-        <a href="https://www.facebook.com/briccoblends">Facebook</a> &bull; <a href="https://www.instagram.com/briccoblends/">Instagram</a>
-      </p>
+  <address>
+    <strong>Amalia Foods LLC</strong><br />
+    PO Box 6856<br />
+    Austin, TX 78762
+  </address>
+  <p>
+    512-766-8255 &bull; <a href="mailto:sales@briccoblends.com">sales@briccoblends.com</a> &bull;
+    <a target="_blank" href="https://www.instagram.com/briccoblends/">Instagram</a>  &bull;
+    <a href="https://mailchi.mp/0322dcb68559/bricco-blends">Newsletter</a>
+  </p>
 </footer>
 
-</body>
 
+</body>
 </html>
