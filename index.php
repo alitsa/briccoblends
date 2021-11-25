@@ -47,7 +47,7 @@ Bricco Blends is barista oat milk with 100% compostable packaging.
 <article id="partners">
   <h2>Get it locally</h2>
 <p>
-  Bricco Blends is available for purchase starting Friday, December 3rd!
+  Bricco Blends is available for purchase starting <strong>Friday, December 3rd</strong>!
 </p>
 <h3>Austin</h3>
 <ul>
@@ -123,11 +123,11 @@ Developing Bricco Blends is the most meaningful thing I've ever done. On my own,
 
 <p>Developing Bricco Blends is the most meaningful thing I've ever done. On my own, I can only make enough oat milk powder to serve three coffee shop locations. Your support will help me expand my production capacity so I can serve tens, hundreds, even thousands of coffee shops.</p>
 <p>
-  I need about <strong>$18,000</strong> to hire a local factory to produce enough oat milk powder to serve 5 coffee shop locations for 6 months (or more for fewer months). With this investment, I can freely sell Bricco Blends without worring about supply.
+  I need about <strong>$18,000</strong> to hire a local factory to produce enough oat milk powder to serve 5 coffee shop locations for 6 months (or more for fewer months). With this investment, I can freely sell Bricco Blends without worrying about supply.
 </p>
 
 <p>
-  Bricco Blends will have such a big environmental impact with every new coffee shop customer we bring on. Thank you so much for joining me in this! &hearts;
+  Bricco Blends will have such a great environmental and economic impact with every new coffee shop customer we bring on. Thank you so much for joining me in this! &hearts;
 </p>
 
 </article>
