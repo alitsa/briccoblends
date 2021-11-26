@@ -2,7 +2,7 @@
 
   #ffae8b rgba(255, 174, 139, 1) Montopolis Dry
   #f04e36 rgba(240, 78, 54, 1) Montopolis
-  #d7422c rgba(215, 66, 44, 1) Montopolis Wet
+  #9A2B27 rgba(215, 66, 44, 1) Montopolis Wet
   #F7F8EE rgba(215, 66, 44, 1) Cottonwood
   #E3EDEA rgba(227, 237, 234, 1) Wonder Plant Dry
   #309F78 rgba(48, 159, 120, 1) Wonder Plant
@@ -13,9 +13,9 @@
 
 html, body {background: #F7F8EE url('img/cottonwood.png') repeat; font-family: 'Quicksand', sans-serif; font-weight: 400; line-height: 1.5em; color: #f04e36; margin:0; padding: 0;}
 a {color: #f04e36; text-decoration: none;}
-a:hover, nav a {color: #d7422c;}
-.banner {background: #E3EDEA url('img/banner.png') repeat-x 0 50%; background-size: auto 100%; width: 100%; padding-top: 33vh;}
-.logo {width: 6em; height: 6em; background-image: url('img/logo.svg'); background-size: 100%; position: absolute; top: 33vh; left: 2em; box-shadow: 2pt 2pt 10pt rgba(15,20,91,.2); border-radius: 3em;}
+a:hover, nav a {color: #9A2B27;}
+.banner {background: #E3EDEA url('img/banner.png') repeat-x 0 50%; background-size: auto 100%; width: 100%; padding-top: 33vh; }
+.logo {width: 6em; height: 6em; background-image: url('img/logo.svg'); background-size: 100%; position:absolute; top: 2em; left: 2em; border-radius: 3em;}
 .logo a {visibility: hidden;}
 figure {text-align: center; margin: auto auto;}
 img {max-width: 100%;}
@@ -24,18 +24,30 @@ nav a {font-weight: 600;}
 nav a:hover {color: #ffffff;}
 nav ul {display: flex; justify-content: center; text-align: center; list-style-type: none;}
 nav li a, nav li a:hover {display: block; padding: 1em;}
-article {max-width: 50em; padding: 1em; margin: 1em auto; background-color: #F7F8EE; border-bottom: 1px solid #ffae8b;}
+article {max-width: 50em; padding: 1em; margin: 1em auto; background-color: #F7F8EE;}
 article:last-child {border-bottom: none;}
+.medium {background-color: rgba(255, 174, 139, .2);}
+.wide {width: 100%;}
+.wide article {background-color: transparent; margin: 0 auto 1em;}
 ol h3 {margin-bottom: 0;} ol p:first-child {margin-top: 0;}
-.button {display: inline-block; padding: .5em 2em; border-radius: .5em; color: #fff; background-color: #d7422c; font-weight: 600;}
-.button:hover {color: #fff; background-color: #ffae8b;}
+.button {display: inline-block; padding: .5em 2em; border-radius: .5em; color: #fff; background-color: rgba(240, 78, 54, .75); font-weight: 600;}
+.button:hover {color: #fff; background-color: rgba(240, 78, 54, 1);}
 .hidden {display: none;}
 footer {padding: auto 2em;  text-align: center; font-size: 80%;}
 address {font-style: normal;}
 ul.horizontal {display: flex; list-style-type: none; justify-content: space-between;}
+.callout {padding: 2em; background-color: white; text-align: center; box-shadow: 2pt 2pt 10pt rgba(15,20,91,.1);}
+figcaption strong {text-transform: uppercase;}
 
 @media only screen and (min-width: 40em) {
   .banner {background-size: 100%;}
-  
   figure {width: 66%;}
+  .logo {top: 33vh; left: 2em; box-shadow: 2pt 2pt 10pt rgba(15,20,91,.2);}
+  .side {width: 33%; padding: .5em;}
+  p.side {background-color: #fff; box-shadow: 2pt 2pt 10pt rgba(15,20,91,.1);}
+  .side figcaption {text-align: center;}
+  .right {float: right; text-align: right; margin: 0 0 auto 2em;}
+  .left {float: left; text-align: left; margin: 0 2em auto 0;}
+  .flex {display: flex;}
+  .flex .side {width: 33%;}
 }
