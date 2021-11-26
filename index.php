@@ -48,8 +48,14 @@ Bricco Blends is barista oat milk with 100% compostable packaging.
 <section class="wide medium">
 <article id="partners">
   <h2>Get it locally</h2>
-  <p>
+  <p class="callout">
     Bricco Blends is available for purchase starting <strong>Friday, December 3rd</strong>!
+  </p>
+  <p>
+    Our partners are actively working toward making their shops more sustainable and environmentally friendly. Switching to Bricco Blends allows them minimize landfill waste and keep their supply chains as local as possible.
+  </p>
+  <p>
+    <strong>Want to try Bricco Blends?</strong> Ask for oat milk with your coffee at these locations:
   </p>
   <div class="flex">
 
@@ -77,7 +83,7 @@ Bricco Blends is barista oat milk with 100% compostable packaging.
       <strong>Be Kind Coffee West</strong><br />
       425 Lake Air Dr, Waco, TX 76710<br />
       <a href="https://www.bekindcoffeecrew.com/" target="_blank">bekindcoffeecrew.com</a>
-      </address>
+    </address><br />
         </li>
         <li>
       <address>
@@ -121,7 +127,7 @@ Coffee shops can become destinations for conscientious consumers who want to buy
 </article>
 
 <article id="donate">
-  <h2>Please Donate</h2>
+  <h2>Kickstart Bricco Blends</h2>
 
   <p>Developing Bricco Blends is the most meaningful thing I've ever done. On my own, I can only make enough oat milk powder to serve three coffee shop locations. Your support will help me expand my production capacity so I can serve tens, hundreds, even thousands of coffee shops.</p>
   <p>
@@ -129,12 +135,12 @@ Coffee shops can become destinations for conscientious consumers who want to buy
   </p>
 
   <p>
-    Bricco Blends will have such a great environmental and economic impact with every new coffee shop customer we bring on. Thank you so much for joining me in this! &hearts;
+    Bricco Blends will have such a great environmental and economic impact with every new coffee shop customer we bring on. Thank you so much for joining me in this! &hearts; &mdash; A. Litsa
   </p>
 <div class="callout">
   <p><a href="https://melio.me/briccoblends" class="button">Donate</a></p>
 
-    <p>Any amount helps!</p>
+    <p>Any amount helps! &#x2615;</p>
 
 </div>
 </article>
