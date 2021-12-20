@@ -55,7 +55,7 @@ address {font-style: normal;}
 ul.horizontal {display: flex; list-style-type: none; justify-content: space-between;}
 figcaption strong {text-transform: uppercase;}
 
-.banner {height: 50vh; background: 50% 50% no-repeat; background-size: auto 100%;}
+.banner {height: 33vh; background: 50% 50% no-repeat; background-size: 100%}
 .banner-home {background-image: url(img/flat-white.jpg) ;}
 .banner-impact {background-image: url(img/impact.jpg) ;}
 .banner-partners {background-image: url(img/partners.jpg) ;}
@@ -74,7 +74,6 @@ li.active a {color: #9A2B27; font-weight: bold; cursor: default;}
 
 @media only screen and (min-width: 40em) {
   .logo {display: block;}
-  .banner {background-size: 100% auto;}
   figure {width: 66%;}
   .side {width: 33%; padding: .5em;}
   p.side {background-color: #fff; box-shadow: 2pt 2pt 10pt rgba(15,20,91,.1);}
