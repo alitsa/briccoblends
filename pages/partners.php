@@ -1,4 +1,7 @@
 <div class="banner banner-partners"></div>
+
+<h1>Partners</h1>
+
 <article id="partners">
   <h2>Get it locally</h2>
 

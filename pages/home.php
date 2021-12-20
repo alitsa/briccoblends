@@ -5,10 +5,15 @@
 </section>
 
 <article>
-  <hgroup class="callout">
-  <h1>Set your coffee shop apart</h1>
-  <h2>with house made oat milk</h2>
-  </hgroup>
+  <div class="callout">
+    <hgroup>
+    <h1>Set your coffee shop apart</h1>
+    <h2>with house made oat milk</h2>
+    </hgroup>
+    <p>
+      <a class="button" href="./index.php?pg=wholesale">Learn how</a>
+    </p>
+  </div>
 <p>
   Make your shop a destination for conscientious consumers who want to buy fresh, locally made oat milk. <strong>Bricco Blends</strong> was designed by a coffee shop owner in Austin, TX to solve real problems for her peers in the industry.
 </p>

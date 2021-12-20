@@ -1,5 +1,7 @@
 <div class="banner banner-impact"></div>
 
+<h1>Company</h1>
+
 <article id="support">
   <h2>Environmental &amp; Economic Impact</h2>
 

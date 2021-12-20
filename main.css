@@ -1,8 +1,10 @@
+/* Author: A. Litsa litsa@briccoblends.com */
+
 /* COLORS
 
-  #ffae8b rgba(255, 174, 139, 1) Montopolis Dry
-  #f04e36 rgba(240, 78, 54, 1) Montopolis
-  #9A2B27 rgba(215, 66, 44, 1) Montopolis Wet
+  #ffae8b rgba(255, 174, 139, 1) Bricco Dry
+  #f04e36 rgba(240, 78, 54, 1) Bricco
+  #9A2B27 rgba(215, 66, 44, 1) Bricco Wet
   #F7F8EE rgba(215, 66, 44, 1) Cottonwood
   #E3EDEA rgba(227, 237, 234, 1) Wonder Plant Dry
   #309F78 rgba(48, 159, 120, 1) Wonder Plant
@@ -12,11 +14,13 @@
 
 
 html, body {background: #F7F8EE url('img/cottonwood.png') repeat; font-family: 'Quicksand', sans-serif; font-weight: 400; line-height: 1.5em; color: #f04e36; margin:0; padding: 0 0 1em 0;}
+::selection {background-color: #E3EDEA; color: #9A2B27;}
 h1, h2, h4 {font-family: futura, sans-serif; font-weight: normal; text-transform: uppercase;}
-h1 {font-size: 1.5em; text-align: center;} h2 {font-size: 1.2em;} h3 {font-size: 1em;} h4 {font-size: .8em; text-align: center;}
+h1 {font-size: 1.5em; text-align: center; margin-top: 2em;} h2 {font-size: 1.2em;} h3 {font-size: 1em;} h4 {font-size: .8em; text-align: center;}
 a {color: #f04e36; text-decoration: none;}
 a:hover, nav a:hover {color: #9A2B27;}
 p a {text-decoration: underline;}
+.logo {display: none;}
 .logo a {dislay: block; width: 3em; height: 3em; background-image: url('img/logo.svg'); background-size: 100%;}
 .logo a span, .logo a:hover span {visibility: hidden;}
 a:disabled {cursor: default;}
@@ -27,7 +31,7 @@ header nav {max-width: 50em; margin: 0 auto;}
 header nav a {font-weight: 600;}
 header nav ul li, ul.flex li {margin: auto .5em;}
 header nav li a, nav li a:hover {display: block; padding: 1em;}
-ul.flex {display: flex; justify-content: space-between; text-align: center; list-style-type: none;margin:0; padding: 0;}
+header nav ul { text-align: center; list-style-type: none;margin:0; padding: 0;}
 li {margin-bottom: 1em;}
 hr {border: 1px solid #ffae8b;}
 
@@ -51,7 +55,7 @@ address {font-style: normal;}
 ul.horizontal {display: flex; list-style-type: none; justify-content: space-between;}
 figcaption strong {text-transform: uppercase;}
 
-.banner {height: 50vh; background: 50% 50% no-repeat; background-size: 100%;}
+.banner {height: 50vh; background: 50% 50% no-repeat; background-size: 100% 100%;}
 .banner-home {background-image: url(img/flat-white.jpg) ;}
 .banner-impact {background-image: url(img/impact.jpg) ;}
 .banner-partners {background-image: url(img/partners.jpg) ;}
@@ -62,9 +66,14 @@ hgroup h1, hgroup h2 {margin: .5em auto;}
 
 .cart {background-color: #F7F8EE; position: fixed; bottom: 0; width: 100%; box-shadow: -4px 0 10px rgba(0, 78, 66, .25); text-align: center; z-index: 100;}
 
+li.active a {color: #9A2B27; font-weight: bold; cursor: default;}
+.navmenu {text-align: center;}
+.navmenu .trigger {display: inline-block; width: 100%; padding: .5em;}
+.navmenu .trigger::before {content: url(img/mark.svg); vertical-align: middle; padding-right: .5em; }
 
 
 @media only screen and (min-width: 40em) {
+  .logo {display: block;}
   .banner {background-size: 100%;}
   figure {width: 66%;}
   .side {width: 33%; padding: .5em;}
@@ -72,7 +81,9 @@ hgroup h1, hgroup h2 {margin: .5em auto;}
   .side figcaption {text-align: center;}
   .right {float: right; text-align: right; margin: 0 0 auto 2em;}
   .left {float: left; text-align: left; margin: 0 2em auto 0;}
-  .flex {display: flex; justify-content: center;}
+  .flex {display: flex; justify-content: center; }
+  .flex.hidden {display:none;}
+  nav ul.flex {justify-content: space-between;}
   .flex .side {width: 33%;}
   .sitemap-main {border-right: 1px solid #ffae8b;}
   footer div.flex>div {border-bottom: none;}

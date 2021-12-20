@@ -1,5 +1,7 @@
-<article>
+
 <h1>Press</h1>
+
+<article>
 <h2>Inquiries</h2>
 <p>
   Email inquiries to <a href="mailto:press@briccoblends.com">press@briccoblends.com</a>
@@ -9,6 +11,21 @@
   <li><a target="_blank" href="http://voyageaustin.com/interview/daily-inspiration-meet-amalia-litsa-joshua-adrian-amalia-litsa-joshua-adrian/?fbclid=IwAR2KgTxfCqzQyiebFsiWYF7HBCUIFVVPYklIZ2XTdv3fu5tRaWYUGMs95I4">"Daily Inspiration: Meet Amalia Litsa and Joshua Adrian" <br/ >Voyage Austin</a></li>
   <li><a href="https://valdezadventurealliance.com/lotech-tuesdays-podcast" target="_blank">Episode 14 <br />Lotech &amp; Wild</a></li>
 </ul>
+
+<h2>Logo</h2>
+<ul>
+<li><a href="./img/logo.svg">logo.svg (9 kb)</a></li>
+<li><a href="./img/logo.png">logo.png (16 kb)</a></li>
+</ul>
+
+<h2>Visual Media</h2>
+<p>
+You may use images, videos, and other media posted to briccoblends.com and our social media channels as long as your audience can tie the media back to Bricco Blends either through the presence of our logo in the media, credit in a caption, or context provided by adjacent copy.
+</p>
+<p>
+If we have credited a third party creative, please reach out to them for permission to use their media.
+</p>
+
 <hr />
 <h2>Copy clips</h2>
 <small>Updated 12/19/2021</small>
@@ -55,17 +72,31 @@ Bricco means little jug. A "Bricco per latte" is a milk jug, or frothing pitcher
 </p>
 <h4>Are you worried about competitors?</h4>
 <p>
-  A little, yes. I feel like all the big brands were in such a hurry to capitalize on oat milk's popularity, they just copied each other. It would be so easy for them to copy me as well, and why not? Not shipping liquid across the country anymore would save them so much money! So yes, I'm nervous that I won't penetrate the market quickly enough. I really want Bricco Blends to be a house name by the time copy cats come along.
-</p>
-<p>
-  On the other hand, this new approach to plant milk would be really good for the planet.
+  There are already powdered oat milks out there, but to my knowledge, they are all formulated around consumer use. I'd love to see Bricco Blends become a house name in the coffee industry. My design is guided by real equipment, real baristas, and real coffee shop customers. As Bricco Blends grows, increased capital will allow me to pursue increasingly elegant solutions, but when it comes to understanding real problems, I already have a wealth of resources. I feel so forunate to have this opportunity to create something so authentic.
 </p>
 <h4>Do you plan to make CPG products too?</h4>
 <p>
-  Successful product designers are not confused about their customer. My customers are coffee shop operators. Of course other people can use and enjoy Bricco Blends too, but I plan to push the needle by throwing all my weight behind people in the specialty coffee industry. Their advocacy would be so valuable to me, but I have to earn it. I understand that.
+  I'd love to see neighborhood coffee shops become destinations for fresh, locally made oat milk. For that reason, my primary focus is B2B, not grocery. I will have some CPG, but I'd like to shape a product portfolio for Bricco Blends that ultimately supports small food business.
+</p>
+<h4>Where is your coffee shop?</h4>
+<p>
+I co-own Dear Diary Coffeehouse in Austin, TX with my friend, Joshua Adrian. It's located at 1212 Chicon St #103.
 </p>
 <p>
-  I'd love to see neighborhood coffee shops become destinations for fresh, locally made oat milk. For that reason, my primary focus is B2B, not grocery. I hope Bricco Blends will enable small food businesses generate new revenue through oat milk production.
+Dear Diary Coffeehouse is a little vegan coffee shop in East Austin. You can learn more about it at <a target="_blank" href="https://deardiarycoffeehouse.com">deardiarycoffeehouse.com</a>
+</p>
+<h4>How has veganism influenced you?</h4>
+<p>
+My shop only uses plant milk because I personally would feel so guilty about all the cow milk I would otherwise buy. Coffee shops are really milk shops, when it comes down to it. Our most popular product is the latte, and that's 80% milk! I just think of the mother and baby cows and can't do it.
+</p>
+<p>
+However! Veganism is really tough on coffee shop margins. Our milk is $10 – $12 / gallon, whereas omnivore shops are only paying $3 – $5 / gallon. We also want to take care of our baristas and pay good, living wages, so we have to work extra hard to gain back that revenue from somewhere.
+</p>
+<p>
+One day, I think it would be cool to assist vegan coffee shops with milk costs, just because I know how hard it is. This is something I'd like to do when Bricco Blends scales up and our own production costs come down.
+</p>
+<p>
+At the end of the day, though, I want to serve and support all small food business owners; I care a lot about nuturing the local economy. I know everyone has their own paths, and I think it's much more productive to honor and celebrate folks' unique contributions to society and the planet. We are all simultaneously constructive and destructive, so thank goodness we're all different as well!
 </p>
 
 </article>

@@ -1,3 +1,4 @@
+<h1>Wholesale</h1>
 <article id="wholesale">
   <p>
     Bricco Blends is ramping up production so that we can serve coffee shops, restaurants, distributors, and other businesses at scale. We're excited to launch our wholesale program in <strong>Spring of 2022</strong>!
