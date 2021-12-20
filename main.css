@@ -77,22 +77,3 @@ hgroup h1, hgroup h2 {margin: .5em auto;}
   .sitemap-main {border-right: 1px solid #ffae8b;}
   footer div.flex>div {border-bottom: none;}
 }
-
-/* ECWID OVERRIDES */
-html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button {
-  display: inline-block; padding: .5em 2em; border-radius: .5em; color: #fff !important; background-color: rgba(240, 78, 54, .75) !important; font-weight: 600; text-decoration: none; border: none !important;
-}
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--appearance-frame.grid__products--layout-justify .grid-product__button {
-  justify-content: center !important;
-}
-html#ecwid_html body#ecwid_body .ec-size .ec-store h1, html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-header-h1{
-  font-size: 1.2rem !important; font-family: futura, sans-serif !important; font-weight: normal !important; text-transform: uppercase !important;
-}
-html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--large-items .grid-product__title-inner {
-  font-size: 1rem !important;
-}
-html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--m .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--l .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--xl .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--xxl .ec-minicart__icon{
-  width: auto !important; height: auto !important;
-}
-html#ecwid_html body#ecwid_body .ec-minicart__icon svg {display: inline-block !important; width: 1.5rem !important; height: 1.5rem !important;}
-.ec-minicart__icon::before {content: 'Shopping Bag'; padding-right: 1em;}
