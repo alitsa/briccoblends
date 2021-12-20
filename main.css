@@ -11,43 +11,88 @@
 */
 
 
-html, body {background: #F7F8EE url('img/cottonwood.png') repeat; font-family: 'Quicksand', sans-serif; font-weight: 400; line-height: 1.5em; color: #f04e36; margin:0; padding: 0;}
+html, body {background: #F7F8EE url('img/cottonwood.png') repeat; font-family: 'Quicksand', sans-serif; font-weight: 400; line-height: 1.5em; color: #f04e36; margin:0; padding: 0 0 1em 0;}
+h1, h2, h4 {font-family: futura, sans-serif; font-weight: normal; text-transform: uppercase;}
+h1 {font-size: 1.5em; text-align: center;} h2 {font-size: 1.2em;} h3 {font-size: 1em;} h4 {font-size: .8em; text-align: center;}
 a {color: #f04e36; text-decoration: none;}
-a:hover, nav a {color: #9A2B27;}
-.banner {background: #E3EDEA url('img/banner.png') repeat-x 0 50%; background-size: auto 100%; width: 100%; padding-top: 33vh; }
-.logo {width: 6em; height: 6em; background-image: url('img/logo.svg'); background-size: 100%; position:absolute; top: 2em; left: 2em; border-radius: 3em;}
-.logo a {visibility: hidden;}
+a:hover, nav a:hover {color: #9A2B27;}
+p a {text-decoration: underline;}
+.logo a {dislay: block; width: 3em; height: 3em; background-image: url('img/logo.svg'); background-size: 100%;}
+.logo a span, .logo a:hover span {visibility: hidden;}
+a:disabled {cursor: default;}
 figure {text-align: center; margin: auto auto;}
 img {max-width: 100%;}
-nav {background-color: #ffae8b;}
-nav a {font-weight: 600;}
-nav a:hover {color: #ffffff;}
-nav ul {display: flex; justify-content: center; text-align: center; list-style-type: none;}
-nav li a, nav li a:hover {display: block; padding: 1em;}
+header {background-color: #fff;}
+header nav {max-width: 50em; margin: 0 auto;}
+header nav a {font-weight: 600;}
+header nav ul li, ul.flex li {margin: auto .5em;}
+header nav li a, nav li a:hover {display: block; padding: 1em;}
+ul.flex {display: flex; justify-content: space-between; text-align: center; list-style-type: none;margin:0; padding: 0;}
+li {margin-bottom: 1em;}
+hr {border: 1px solid #ffae8b;}
+
 article {max-width: 50em; padding: 1em; margin: 1em auto; background-color: #F7F8EE;}
 article:last-child {border-bottom: none;}
 .medium {background-color: rgba(255, 174, 139, .2);}
 .wide {width: 100%;}
+.wide.light {background-color: #fff;}
 .wide article {background-color: transparent; margin: 0 auto 1em;}
 ol h3 {margin-bottom: 0;} ol p:first-child {margin-top: 0;}
-.button {display: inline-block; padding: .5em 2em; border-radius: .5em; color: #fff; background-color: rgba(240, 78, 54, .75); font-weight: 600;}
+.button {display: inline-block; padding: .5em 2em; border-radius: .5em; color: #fff; background-color: rgba(240, 78, 54, .75); font-weight: 600; text-decoration: none;}
 .button:hover {color: #fff; background-color: rgba(240, 78, 54, 1);}
 .hidden {display: none;}
 footer {padding: auto 2em;  text-align: center; font-size: 80%;}
+.sitemap {background-color: white; margin-top: 2em;}
+footer div.flex>div {padding: 2em; border-bottom: 1px solid #ffae8b;}
+footer ul {list-style-type: none; margin: 0; padding: 0;}
+footer li {margin: 0;}
+footer h4 {margin: 0;}
 address {font-style: normal;}
 ul.horizontal {display: flex; list-style-type: none; justify-content: space-between;}
-.callout {padding: 2em; background-color: white; text-align: center; box-shadow: 2pt 2pt 10pt rgba(15,20,91,.1);}
 figcaption strong {text-transform: uppercase;}
+
+.banner {height: 50vh; background: 50% 50% no-repeat; background-size: 100%;}
+.banner-home {background-image: url(img/flat-white.jpg) ;}
+.banner-impact {background-image: url(img/impact.jpg) ;}
+.banner-partners {background-image: url(img/partners.jpg) ;}
+.banner-retail {background-image: url(img/shop-3.jpg) ;}
+
+.callout {text-align: center; padding: 3em; margin-bottom: 2em; background-color: #fff;}
+hgroup h1, hgroup h2 {margin: .5em auto;}
+
+.cart {background-color: #F7F8EE; position: fixed; bottom: 0; width: 100%; box-shadow: -4px 0 10px rgba(0, 78, 66, .25); text-align: center; z-index: 100;}
+
+
 
 @media only screen and (min-width: 40em) {
   .banner {background-size: 100%;}
   figure {width: 66%;}
-  .logo {top: 33vh; left: 2em; box-shadow: 2pt 2pt 10pt rgba(15,20,91,.2);}
   .side {width: 33%; padding: .5em;}
   p.side {background-color: #fff; box-shadow: 2pt 2pt 10pt rgba(15,20,91,.1);}
   .side figcaption {text-align: center;}
   .right {float: right; text-align: right; margin: 0 0 auto 2em;}
   .left {float: left; text-align: left; margin: 0 2em auto 0;}
-  .flex {display: flex;}
+  .flex {display: flex; justify-content: center;}
   .flex .side {width: 33%;}
+  .sitemap-main {border-right: 1px solid #ffae8b;}
+  footer div.flex>div {border-bottom: none;}
 }
+
+/* ECWID OVERRIDES */
+html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control--secondary .form-control__button {
+  display: inline-block; padding: .5em 2em; border-radius: .5em; color: #fff !important; background-color: rgba(240, 78, 54, .75) !important; font-weight: 600; text-decoration: none; border: none !important;
+}
+html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--appearance-frame.grid__products--layout-justify .grid-product__button {
+  justify-content: center !important;
+}
+html#ecwid_html body#ecwid_body .ec-size .ec-store h1, html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-header-h1{
+  font-size: 1.2rem !important; font-family: futura, sans-serif !important; font-weight: normal !important; text-transform: uppercase !important;
+}
+html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__products--large-items .grid-product__title-inner {
+  font-size: 1rem !important;
+}
+html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--m .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--l .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--xl .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--responsive.ec-minicart--xxl .ec-minicart__icon{
+  width: auto !important; height: auto !important;
+}
+html#ecwid_html body#ecwid_body .ec-minicart__icon svg {display: inline-block !important; width: 1.5rem !important; height: 1.5rem !important;}
+.ec-minicart__icon::before {content: 'Shopping Bag'; padding-right: 1em;}
