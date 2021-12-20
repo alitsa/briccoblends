@@ -17,7 +17,7 @@ Bricco Blends is barista oat milk with 100% compostable packaging.
 <link rel="stylesheet" href="main.css" />
 
  <base target="_self">
- 
+
 
 </head>
 <body>
@@ -32,6 +32,16 @@ if (isset($pg)) {
 }
 include('modules/footer.php');
 ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JG915842N7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JG915842N7');
+</script>
 
 
 </body>
