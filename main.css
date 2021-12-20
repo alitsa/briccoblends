@@ -55,7 +55,7 @@ address {font-style: normal;}
 ul.horizontal {display: flex; list-style-type: none; justify-content: space-between;}
 figcaption strong {text-transform: uppercase;}
 
-.banner {height: 33vh; background: 50% 50% no-repeat; background-size: 100%}
+.banner {height: 33vh; background: 0% 50% no-repeat; background-size: 100%}
 .banner-home {background-image: url(img/flat-white.jpg) ;}
 .banner-impact {background-image: url(img/impact.jpg) ;}
 .banner-partners {background-image: url(img/partners.jpg) ;}
