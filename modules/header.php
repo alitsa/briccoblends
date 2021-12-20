@@ -17,7 +17,7 @@ function linkURL($navnum){
 <header>
   <nav class="navmenu">
     <a href="#" class="trigger">Menu</a>
-    <ul class="menu flex hidden">
+    <ul class="menu flex">
       <li class="logo">
           <a disabled="disabled" title="Home page" href='./index.php'>
           <span>Home</span>

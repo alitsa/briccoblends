@@ -70,6 +70,8 @@ li.active a {color: #9A2B27; font-weight: bold; cursor: default;}
 .navmenu {text-align: center;}
 .navmenu .trigger {display: inline-block; width: 100%; padding: .5em;}
 .navmenu .trigger::before {content: url(img/mark.svg); vertical-align: middle; padding-right: .5em; }
+.navmenu .menu {display: none;}
+.navmenu .showing {display: block;}
 
 
 @media only screen and (min-width: 40em) {
@@ -82,8 +84,11 @@ li.active a {color: #9A2B27; font-weight: bold; cursor: default;}
   .left {float: left; text-align: left; margin: 0 2em auto 0;}
   .flex {display: flex; justify-content: center; }
   .flex.hidden {display:none;}
-  nav ul.flex {justify-content: space-between;}
   .flex .side {width: 33%;}
   .sitemap-main {border-right: 1px solid #ffae8b;}
   footer div.flex>div {border-bottom: none;}
+
+  .navmenu .trigger {display: none;}
+  .navmenu .menu, .navmenu .showing {display: flex; justify-content: space-between;}
+
 }

@@ -2,40 +2,39 @@
 // I'm old!
 $( document ).ready(function() {
 
-  mainmenu();
   triggermenu();
 
-  $( window ).resize(function() {
-    mainmenu();
+  $(window).resize(function(){
+    var width = $(window).width() / parseFloat($("body").css("font-size"));
+    menulayout('.navmenu .menu', width);
+
   });
+
+  function menulayout(menu, width){
+
+    if (width < 40){
+      $(menu).removeClass('showing');
+    }
+
+  }
+
 
   function triggermenu(){
     $('.trigger').click(function(event){
 
       event.preventDefault();
-      var bean = $(this).next('.menu').toggleClass('hidden');
+
+      $('.navmenu .menu').toggleClass('showing');
+
 
     });
   }
 
 
-  function mainmenu(){
 
-    var nav = $('.navmenu');
-    var trigger = $('.navmenu .trigger');
-    var menu = $('.navmenu .menu');
 
-    var width = $(window).width() / parseFloat($("body").css("font-size"));
+    // var width = $(window).width() / parseFloat($("body").css("font-size"));
 
-    if(width < 40)
-    {
-      $(trigger).show();
-       $(menu).addClass('hidden')
-    } else {
-       $(menu).removeClass('hidden');
-       $(trigger).hide();
-    }
 
-  }
 
 });
