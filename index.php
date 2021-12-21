@@ -3,7 +3,7 @@
 <head>
 <title>Bricco Blends</title>
 
-<?php 
+<?php
 
   $pg = $_GET['pg'];
   if ($pg == "impact"){
@@ -39,6 +39,8 @@
 
 
  <base target="_self">
+
+ <meta name="facebook-domain-verification" content="9cjg4ic8g8tseuco90g0oa3y1aky3v" />
 
  <!-- Facebook Pixel Code -->
 <script>
