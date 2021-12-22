@@ -34,7 +34,7 @@
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
       rel="stylesheet">
 <link rel="stylesheet" href="main.css" />
-<script src="jquery.js"></script>
+<script src="thirdparty/jquery.js"></script>
 <script src="main.js"></script>
 
 
