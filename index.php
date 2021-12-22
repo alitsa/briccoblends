@@ -78,6 +78,7 @@ src="https://www.facebook.com/tr?id=1249423722225144&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/125d3821dadb6cafcc2c5560e/48c96187273a3795823aef358.js");</script>
 
 </head>
 <body>
