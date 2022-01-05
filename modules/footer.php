@@ -26,9 +26,9 @@
       <h4>Follow</h4>
       <ul>
         <li><a target="_blank" href="https://www.instagram.com/briccoblends/">Instagram</a></li>
-        <li><a target="_blank" href="https://www.facebook.com/groups/briccoblends/">Facebook group</a></li>
+        <li><a target="_blank" href="https://www.facebook.com/groups/briccoblends/">Facebook Group</a></li>
         <li>
-          <a target="_blank" href="https://mailchi.mp/0322dcb68559/bricco-blends">Email list</a>
+          <a target="_blank" href="https://mailchi.mp/0322dcb68559/bricco-blends">Email List</a>
         </li>
       </ul>
     </div>
@@ -60,6 +60,11 @@
           Company
           </a>
         </li>
+        <li>
+          <a  href="./index.php?pg=returns">
+          Return Policy
+          </a>
+        </li>
         <!--
         <li>
           <a  href="./index.php?pg=blog">
@@ -73,11 +78,7 @@
       <h4>Collab</h4>
       <ul>
 
-        <li>
-          <a  href="./index.php?pg=returns">
-          Return Policy
-          </a>
-        </li>
+
 
         <li>
           <a  href="./index.php?pg=press">
