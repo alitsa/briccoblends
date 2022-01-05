@@ -72,13 +72,13 @@
     <div>
       <h4>Collab</h4>
       <ul>
-        <!--
+
         <li>
-          <a  href="./index.php?pg=legal">
-          Legal
+          <a  href="./index.php?pg=returns">
+          Return Policy
           </a>
         </li>
-      -->
+
         <li>
           <a  href="./index.php?pg=press">
           Press
