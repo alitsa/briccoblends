@@ -13,7 +13,6 @@ function linkURL($navnum){
 }
 
 ?>
-
 <header>
   <nav class="navmenu">
     <a href="#" class="trigger">Menu</a>

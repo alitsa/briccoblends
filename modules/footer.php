@@ -18,7 +18,7 @@
       <h4>Contact</h4>
       <ul>
         <li><a href="tel:+01-512-766-8255">512-766-8255</a></li>
-        <li><a href="mailto:sales@briccoblends.com">sales@briccoblends.com</a></li>
+        <li><a href="mailto:info@briccoblends.com">info@briccoblends.com</a></li>
       </ul>
     </div>
 
@@ -45,6 +45,9 @@
           <a  href="./index.php?pg=retail">
           Retail
           </a>
+        </li>
+        <li>
+          <a href="./?pg=retail#!/~/account">Account</a>
         </li>
       </ul>
     </div>
@@ -86,7 +89,7 @@
 </div>
 
 </footer>
-<section class="cart">
+<section class="cart flex">
 
   <div class="ec-cart-widget"></div>
   <div>
